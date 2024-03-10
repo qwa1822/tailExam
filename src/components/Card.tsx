@@ -21,7 +21,7 @@ export default function Card({}: Props) {
               Hello
             </h2>
 
-            <p className="text-white tracking-wide leading-5 max-w-xs font-medium font-sarif md:text-left text-center text-xs ">
+            <p className="text-white tracking-wide leading-5 max-w-xs font-medium fX`ont-sarif md:text-left text-center text-xs ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
               nemo doloremque magnam veritatis quia eaque consequuntur, culpa
               velit ipsa eum quisquam necessitatibus molestiae quam sunt
@@ -34,6 +34,10 @@ export default function Card({}: Props) {
                 placeholder="Enter your email"
                 className="text-white md:text-left text-center p-2 px-4 focus:outline-none bg-zinc-800 border-zinc-600 placeholder:text-xs placeholder:text-center placeholder:md:text-left"
               />
+
+              <button className="px-5 py-3 text-xs bg-lime-500 hover:bg-lime-700 text-center  rounded-md transform duration-500 hover:text-white">
+                SubScribe
+              </button>
             </div>
           </div>
         </div>

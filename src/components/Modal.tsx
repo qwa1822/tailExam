@@ -6,11 +6,13 @@ type Props = {};
 export default function Modal({}: Props) {
   return (
     // Global Container
+
+    // Global Container
     <div className="flex items-center justify-center min-h-screen bg-slate-100">
       {/* Card Container */}
       <div
         className="flex flex-col p-6 m-3 space-y-10 bg-whit
-      e rounded-2xl shadow-2xl md:flex-row md:space-y-0 md:space-x-10 md:p-16"
+     e rounded-2xl shadow-2xl md:flex-row md:space-y-0 md:space-x-10 md:p-16"
       >
         {/* image */}
         <div>

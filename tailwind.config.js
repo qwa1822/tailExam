@@ -14,6 +14,9 @@ export default {
         sans: ["Mulish", "sans-serif"],
         mono: ["Rokkitt", "monospace"],
       },
+      letterSpacing: {
+        widest: ".3em",
+      },
       colors: {
         strongCyan: "hsl(171,66%,44%)",
         lightBlue: "hsl(233,100%,69%)",

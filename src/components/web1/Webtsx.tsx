@@ -222,9 +222,9 @@ export default function Webtsx({}: Props) {
 
             <div className="flex flex-col items-center justify-between mb-10 space-y-6 md:flex-row md:space-y-0 md:mb-0 text-grayishBlue">
               {/* Menus */}
-              <div className="flex flex-col space-y-4 md:flex-row md:ml-24 md:space-x-24 md:space-y-0">
+              <div className="flex items-center flex-col space-y-4 md:flex-row md:ml-24 md:space-x-24 md:space-y-0">
                 {/* menu1 */}
-                <div className="flex flex-col space-y-4 mt-4 text-center md:text-left">
+                <div className="flex flex-col  space-y-4  text-center  md:text-left">
                   <div>
                     <a href="" className="hover:text-strongCyan">
                       FaQs
@@ -247,18 +247,17 @@ export default function Webtsx({}: Props) {
                   </div>
                 </div>
               </div>
+            </div>
+            {/* Socail Icons */}
 
-              {/* Socail Icons */}
+            <div className="flex space-x-4 m-4 justify-between w-32 py-1">
+              <a href="#">
+                <img src={fBook} alt="" className="duration-200 ficon" />
+              </a>
 
-              <div className="flex justify-between w-32 py-1">
-                <a href="#">
-                  <img src={fBook} alt="" className="duration-200 ficon" />
-                </a>
-
-                <a href="#">
-                  <img src={twitter} alt="" className="duration-200 ficon" />
-                </a>
-              </div>
+              <a href="#">
+                <img src={twitter} alt="" className="duration-200 ficon" />
+              </a>
             </div>
           </div>
         </div>

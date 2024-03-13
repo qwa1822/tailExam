@@ -121,7 +121,6 @@ export default function Web2tsx({}: Props) {
           </div>
         </div>
       </div>
-
       {/* COntentTop */}
       <div className="feature">
         <div className="relative container  flex flex-col max-w-6xl mx-auto my-32 px-6 text-gray-900 md:flex-row md:px-0">
@@ -145,9 +144,7 @@ export default function Web2tsx({}: Props) {
           </div>
         </div>
       </div>
-
       {/* ContentSection */}
-
       <div className="creations">
         {/* Creations Container */}
 
@@ -314,7 +311,6 @@ export default function Web2tsx({}: Props) {
           </div>
         </div>
       </div>
-
       <div className="bg-black ">
         {/* Container */}
         <div className="container max-w-6xl py-10 mx-auto">
